@@ -1,0 +1,36 @@
+@media screen and (min-width: 1300px) {
+    
+    /* ------ Content Width ------ */
+    .content {
+        width: 960px;
+    }
+
+    /* ------ Navigation Links */
+
+    /* ------- Styling unique to Homepage -------- */
+
+    /* ------- Contact Div -------- */
+
+    .cta-box {
+        width: 40vw;
+    }
+
+
+    /* ------- History Section ------- */
+
+    .history {
+        min-height: 35vw;
+    }
+
+    .history__history-image {
+        float: right;
+        width: unset;
+        height: 30vw;
+    }
+
+    .contact-form {
+        width: 30vw;
+    }
+
+
+}

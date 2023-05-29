@@ -1,0 +1,229 @@
+/* Fonts used on this site */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Staatliches&display=swap');
+
+/* -------- General Cross-page styles ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/groundwork.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #bb9f65;
+}
+
+.main-content a:hover,
+.facebook-link:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 95vw;
+    margin: 10px auto;
+    background-color: #f3e9a8;
+    padding: 10px;
+    border: 3px solid #bb9f65;
+    font-family: 'Staatliches', cursive;
+    color: #1f1f1f;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    font-size: normal;
+}
+
+/* ------ Cross-site Border Radius Styles ------ */
+
+.content,
+.site-logo,
+.site-navigation,
+.site-footer,
+img,
+.form-input,
+.form-textarea,
+.form-button {
+    border-radius: 10px;
+}
+
+/* ------- Cross-site Flex Display ------- */
+
+.site-header,
+.site-navigation__links-list,
+.facebook-link {
+    display: flex;
+}
+
+/* ------- Header, Site Logo, Social Media Link ------- */
+
+.site-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    width: 150px;
+    margin-right: 5px;
+}
+
+.facebook-link {
+    align-items: center;
+    margin-left: 5px;
+    color: #393939;
+}
+
+.facebook-image {
+    margin-right: 10px;
+}
+
+/* ------ Navigation, Navigation Links/List ------- */
+
+.site-navigation {
+    background-color: #1f1f1f;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.site-navigation__links-list {
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-evenly;
+}
+
+.list-item__site-link {
+    display: block;
+    color: #decc8b;
+    padding: 20px;
+}
+
+.list-item__site-link:hover {
+    background-color: #decc8b;
+    color: #1f1f1f;
+}
+
+.list-item__site-link:active {
+    background-color: #bb9f65;
+    color: #393939;
+}
+
+/* ------ Footer Styles ------ */
+
+.site-footer {
+    background-color: #393939;
+    color: #f3e9a8;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* -------- Styles unique to Homepage --------- */
+
+/* ------- Contact Div -------- */
+
+.cta-box {
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: #decc8b;
+    margin-bottom: 50px;
+}
+
+.cta-box__cel-num,
+.cta-box__email-ad {
+    color: #f3e9a8;
+}
+
+/* -------- Video --------- */
+
+.home-video {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    background-color: #1f1f1f;
+}
+
+/* ----- History Section ----- */
+
+.history__history-image {
+    width: 100%;
+}
+
+/* ------- Styles unique to Services Page ------- */
+
+/* ------- Services Section ------- */
+
+.services-section img {
+    width: 100%;
+}
+
+/* ------- Styles unique to Contact Us Page ------- */
+
+/* ------- Contact Form -------- */
+
+.contact-form {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.form-para {
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    color: #1f1f1f;
+    margin-bottom: 30px ;
+}
+
+.form-input {
+    height: 60px;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: #bb9f65;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    outline: none;
+    background-color: #393939;
+    color: #decc8b;
+    padding: 5px 10px;
+    border: none;
+}
+
+.form-textarea {
+    max-width: 100%;
+}
+
+.form-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px outset #decc8b;
+    background-color: #393939;
+    color: #decc8b;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-button:active {
+    background-color: #decc8b;
+    color: #393939;
+    border: 5px inset #decc8b;
+}

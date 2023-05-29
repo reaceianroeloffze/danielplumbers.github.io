@@ -1,0 +1,48 @@
+@media screen and (min-width: 540px) {
+    
+    .content {
+        font-size: 1.5rem;
+    }
+
+    /* ------- Styling unique to Homepage -------- */
+
+    /* ------- Contact Div -------- */
+
+    .cta-box {
+        width: 70vw;
+    }
+
+    /* ------- Video -------- */
+
+    .home-video {
+        width: 500px;
+        height: 500px;
+    }
+
+    /* ------- History Section ------- */
+
+    .history {
+        min-height: 59vw;
+    }
+
+    .history__history-image {
+        float: right;
+        width: unset;
+        height: 50vw;
+    }
+
+    /* ------- Styles unique to Services Page ------- */
+
+    /* ------- Services Section ------- */
+
+    .services__grid-div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+
+    .contact-form {
+        width: 60vw;
+    }
+
+}
